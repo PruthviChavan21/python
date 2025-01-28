@@ -14,3 +14,5 @@ instance = ec2.create_instances(
 # Print the instance ID
 print(f"Instance ID: {instance[0].id}")
 #print(f"Instance ID: {instance[0].id}")
+
+# check to retry codebuild
